@@ -1,0 +1,59 @@
+<HTML>
+    <HEAD>
+     <TITLE>Categorias - Bonicars</TITLE>
+     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="categoria.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    </HEAD>
+    <BODY>
+    
+    <div id="bordaLogo">
+       <img src="logo.png" class="logoPadrao">
+	</div>
+    
+    <div id="bordaMenu">
+    <p>
+    <ul>
+    <li>  <i class="fas fa-arrow-alt-circle-right"></i> <a href="home.php">HOME</a></li>
+    <li>  <i class="fas fa-arrow-alt-circle-right"></i> <a href="">CONTATO</a></li>
+    <li>  <i class="fas fa-arrow-alt-circle-right"></i> <a href="cadastros.html">CADASTROS</a></li>
+    </ul>
+    </p>
+    </div>
+  
+<div id="central">
+<form name="form" method="post"  action="categoria.php" >
+ <br>
+CADASTRAR CATEGORIAS
+    <br><br> 
+	<form name="formulario" method="post" action="">
+ 
+<table border=0>
+<tr>
+
+<td><input type="text" name="codcategoria" size=5 class="Log" placeholder="Codigo da Categoria" required> </td>
+</tr>
+<tr>
+
+<td><input type="text" name="nome" size=20 class="nom" placeholder="Nome da Categoria" required> </td>
+</tr>
+</table>
+
+<input type="submit" name="bt_cadastrar" value="CADASTRAR" class="entrarbt">
+    <input type="submit" name="bt_excluir" value="EXCLUIR" class="entrarbt">
+    <input type="submit" name="bt_alterar" value="ALTERAR" class="entrarbt">
+    <input type="submit" name="bt_pesquisar" value="PESQUISAR" class="entrarbt">
+
+
+</form>
+	  
+	 
+</div>
+
+<div id="rodape"> 
+	 @2020 CopyRight Revendedora Bonicars - Powered by: Victor
+</div>   
+</body>
+</html>
+

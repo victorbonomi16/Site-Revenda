@@ -1,0 +1,40 @@
+.carrosPes {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+   
+  .listaCarrosPes {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+  }
+  .valorCarroPes {
+    color: rgb(214, 34, 2);
+    margin-top: 0px;
+    font-family:Bahnschrift Condensed;
+  }
+
+   
+  .modeloCarroPes {
+    margin-top: 5px;
+    font-family:Bahnschrift Condensed;
+  }
+   
+  .anoCarroPes{
+    margin-top: 5px;
+    font-family:Bahnschrift Condensed;
+    margin-left: -150px;
+    margin-top: -10px;
+    color: #000000;
+  }
+   
+  .KMCarroPes{
+    margin-top: 5px;
+    font-family:Bahnschrift Condensed;
+    margin-left: 150px;
+    margin-top: -45px;
+    color: #000000;
+  }
+   
